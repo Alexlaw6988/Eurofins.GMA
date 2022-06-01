@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eurofins.GMA.Application.Contract\Eurofins.GMA.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Eurofins.GMA.Application\Eurofins.GMA.Application.csproj" />
+    <ProjectReference Include="..\Eurofins.GMA.Domain\Eurofins.GMA.Domain.csproj" />
+    <ProjectReference Include="..\Eurofins.GMA.Infrastructure\Eurofins.GMA.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

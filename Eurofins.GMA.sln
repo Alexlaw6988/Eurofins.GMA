@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{10275B92-F05E-4F4E-BF10-83B51CBF15AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A55A8386-1E82-4641-99D9-E18EB9CEF712}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eurofins.GMA.Application", "src\Eurofins.GMA.Application\Eurofins.GMA.Application.csproj", "{08FCC468-84F7-4A42-81F5-7A9EC42F8BB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eurofins.GMA.Application.Configurations", "src\Eurofins.GMA.Application.Configurations\Eurofins.GMA.Application.Configurations.csproj", "{DEC1367E-9FA9-4B69-9E8A-104CD8D1AC31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eurofins.GMA.Application.Contracts", "src\Eurofins.GMA.Application.Contract\Eurofins.GMA.Application.Contracts.csproj", "{18028E50-F426-4241-83CA-345E1B9AA190}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eurofins.GMA.Domain", "src\Eurofins.GMA.Domain\Eurofins.GMA.Domain.csproj", "{19216F29-7881-4EF4-A96D-4F3777B1FC52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eurofins.GMA.Infrastructure", "src\Eurofins.GMA.Infrastructure\Eurofins.GMA.Infrastructure.csproj", "{01DC9315-D49A-4D22-94CC-541EAC4C090E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eurofins.GMA.Application.Tests", "test\Eurofins.GMA.Application.Tests\Eurofins.GMA.Application.Tests.csproj", "{C16057A7-78BA-466A-B4A5-6963EC64298D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eurofins.GMA.Domain.Tests", "test\Eurofins.GMA.Domain.Tests\Eurofins.GMA.Domain.Tests.csproj", "{9E86D1B0-847F-444E-8304-188A2FE219CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eurofins.GMA.Infrastructure.Tests", "test\Eurofins.GMA.Infrastructure.Tests\Eurofins.GMA.Infrastructure.Tests.csproj", "{2EC14872-9867-46C1-8524-F049D0094D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eurofins.GMA.API", "src\Eurofins.GMA.API\Eurofins.GMA.API.csproj", "{DD6B40E3-848E-441D-9B55-870011E0D734}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08FCC468-84F7-4A42-81F5-7A9EC42F8BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FCC468-84F7-4A42-81F5-7A9EC42F8BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FCC468-84F7-4A42-81F5-7A9EC42F8BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FCC468-84F7-4A42-81F5-7A9EC42F8BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC1367E-9FA9-4B69-9E8A-104CD8D1AC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC1367E-9FA9-4B69-9E8A-104CD8D1AC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC1367E-9FA9-4B69-9E8A-104CD8D1AC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC1367E-9FA9-4B69-9E8A-104CD8D1AC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18028E50-F426-4241-83CA-345E1B9AA190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18028E50-F426-4241-83CA-345E1B9AA190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18028E50-F426-4241-83CA-345E1B9AA190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18028E50-F426-4241-83CA-345E1B9AA190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19216F29-7881-4EF4-A96D-4F3777B1FC52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19216F29-7881-4EF4-A96D-4F3777B1FC52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19216F29-7881-4EF4-A96D-4F3777B1FC52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19216F29-7881-4EF4-A96D-4F3777B1FC52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DC9315-D49A-4D22-94CC-541EAC4C090E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DC9315-D49A-4D22-94CC-541EAC4C090E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DC9315-D49A-4D22-94CC-541EAC4C090E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DC9315-D49A-4D22-94CC-541EAC4C090E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16057A7-78BA-466A-B4A5-6963EC64298D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16057A7-78BA-466A-B4A5-6963EC64298D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16057A7-78BA-466A-B4A5-6963EC64298D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16057A7-78BA-466A-B4A5-6963EC64298D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E86D1B0-847F-444E-8304-188A2FE219CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E86D1B0-847F-444E-8304-188A2FE219CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E86D1B0-847F-444E-8304-188A2FE219CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E86D1B0-847F-444E-8304-188A2FE219CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC14872-9867-46C1-8524-F049D0094D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC14872-9867-46C1-8524-F049D0094D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC14872-9867-46C1-8524-F049D0094D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC14872-9867-46C1-8524-F049D0094D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD6B40E3-848E-441D-9B55-870011E0D734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6B40E3-848E-441D-9B55-870011E0D734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6B40E3-848E-441D-9B55-870011E0D734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6B40E3-848E-441D-9B55-870011E0D734}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08FCC468-84F7-4A42-81F5-7A9EC42F8BB7} = {10275B92-F05E-4F4E-BF10-83B51CBF15AA}
+		{DEC1367E-9FA9-4B69-9E8A-104CD8D1AC31} = {10275B92-F05E-4F4E-BF10-83B51CBF15AA}
+		{18028E50-F426-4241-83CA-345E1B9AA190} = {10275B92-F05E-4F4E-BF10-83B51CBF15AA}
+		{19216F29-7881-4EF4-A96D-4F3777B1FC52} = {10275B92-F05E-4F4E-BF10-83B51CBF15AA}
+		{01DC9315-D49A-4D22-94CC-541EAC4C090E} = {10275B92-F05E-4F4E-BF10-83B51CBF15AA}
+		{C16057A7-78BA-466A-B4A5-6963EC64298D} = {A55A8386-1E82-4641-99D9-E18EB9CEF712}
+		{9E86D1B0-847F-444E-8304-188A2FE219CE} = {A55A8386-1E82-4641-99D9-E18EB9CEF712}
+		{2EC14872-9867-46C1-8524-F049D0094D0D} = {A55A8386-1E82-4641-99D9-E18EB9CEF712}
+		{DD6B40E3-848E-441D-9B55-870011E0D734} = {10275B92-F05E-4F4E-BF10-83B51CBF15AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACCD09FE-86BA-48E0-A301-6188223B9FF4}
+	EndGlobalSection
+EndGlobal
